@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: lime;
+  justify-content: center;
+}
+
+.cardConatainer {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: lightskyblue;
+  color: gray;
+}
+.cardConatainer:hover {
+  background-color: gray;
+  color: lightskyblue;
+}
+.con1 {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: goldenrod;
+  background-color: indianred;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  position: sticky;
+  top: 0;
+}
